@@ -1,10 +1,15 @@
 package main
 import "fmt"
-func max(x[3]int ) []int {
-   return fmt.Printf("Array values: %v", x[])
+func Max(a, b, c int ) int {
+   fmt.Printf("Arrayvalues: %v, %v, %v\n", a, b, c)
+   if a > b && a > c {
+     return a
+   } else if b>a && b > c {
+     return b
+   }
+   return c
 }
 
 func main() {
-   max(10,20,30)
-    
+   print(Max(10,20,30))
 }
