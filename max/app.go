@@ -1,5 +1,7 @@
-package main
+package max
 
-func main() {
-	$END$
+
+func Imp()  {
+	f := 0
+	println(f)
 }
