@@ -1,6 +1,6 @@
 package main
 import "fmt"
-func Max(a, b, c int ) int {
+func Max(a ... int ) int {
    fmt.Printf("Arrayvalues: %v, %v, %v\n", a, b, c)
    if a > b && a > c {
      return a
@@ -11,5 +11,5 @@ func Max(a, b, c int ) int {
 }
 
 func main() {
-   print(Max(10,20,30))
+   println(Max(10,20,30))
 }
