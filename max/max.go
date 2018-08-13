@@ -1,17 +1,18 @@
 package max
 
-//import "fmt"
+func main(){
+  println(Max(1,2,3))
+  println(Max(2,3,1))
+  println(Max(3,2,1))
+}
 
-func Max(a, b, c int ) int {
-   // fmt.Printf("Arrayvalues: %v, %v, %v\n", a, b, c)
-   if a > b && a > c {
-     return a
-   } else if b>a && b > c {
-     return b
+func Max(nums ...int) int {
+   max := nums[0]
+   for _, num := range nums{
+      if num > max{
+         max = num
+      }
    }
-   return c
+   return max
 }
 
-func main() {
-   print(Max(10,20,30))
-}
