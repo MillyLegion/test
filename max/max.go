@@ -1,7 +1,9 @@
-package main
-import "fmt"
+package max
+
+//import "fmt"
+
 func Max(a, b, c int ) int {
-   fmt.Printf("Arrayvalues: %v, %v, %v\n", a, b, c)
+   // fmt.Printf("Arrayvalues: %v, %v, %v\n", a, b, c)
    if a > b && a > c {
      return a
    } else if b>a && b > c {
