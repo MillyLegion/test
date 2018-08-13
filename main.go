@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main(){
-  fmt.Println("Hello Git!") // Commented
+  fmt.Println("Hello Git!") // UnCommented
 }
