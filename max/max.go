@@ -1,7 +1,7 @@
-package main
-import "fmt"
-func Max(a, b, c int ) int {
-   fmt.Printf("Arrayvalues: %v, %v, %v\n", a, b, c)
+package max
+
+func Max(i, ... int ) int {
+   
    if a > b && a > c {
      return a
    } else if b>a && b > c {
